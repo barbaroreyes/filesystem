@@ -1,8 +1,7 @@
 const  readFile = require('node:fs');
 
 
-const reaf =   readFile.readFileSync('./package.json', 'utf8');
+const reaf =   readFile.readFileSync('create-file.js', 'utf8');
 
 console.log(reaf);
-
 

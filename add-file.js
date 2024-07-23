@@ -1,3 +1,3 @@
 const appendF = require('node:fs');
 
-const addFile = appendF.appendFileSync('messageAdded.txt', 'data to append', 'utf8'); 
+appendF.appendFileSync('new_file.txt', '\n data to append', 'utf8'); 
